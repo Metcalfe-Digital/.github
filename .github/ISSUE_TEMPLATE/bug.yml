@@ -1,0 +1,26 @@
+name: Bug
+description: Something does the wrong thing
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: What you saw, in the words on the screen.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen
+  - type: textarea
+    id: where
+    attributes:
+      label: Where
+      description: The page or screen, who was signed in, which device and browser.
+      placeholder: /settings as an admin, Safari on iPhone
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshot
+      description: Drag one in.
