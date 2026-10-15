@@ -1,0 +1,21 @@
+name: Idea
+description: Something new, or something that could work differently. Half-formed is fine.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: A sentence is enough. An agent shapes it later and asks what it needs to.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: Who it's for, or what's annoying today.
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else
+      description: Screenshots, links, related issues.
